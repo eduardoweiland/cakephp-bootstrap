@@ -1,4 +1,4 @@
-cakephp-bootstrap
+CakePHP Bootstrap
 =================
 
-Collection of various plugins to help using CakePHP with Bootstrap
+Collection of various plugins to help using CakePHP with Bootstrap.

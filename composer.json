@@ -1,0 +1,31 @@
+{
+    "name": "duduweiland/cakephp-bootstrap",
+    "type": "cakephp-plugin",
+    "description": "Collection of various plugins to help using CakePHP with Bootstrap",
+    "keywords": ["cakephp", "plugin", "boostrap", "helper", "template"],
+    "homepage": "http://github.com/duduweiland/cakephp-bootstrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Weiland",
+            "email": "eduardo@eduardoweiland.info",
+            "homepage": "http://eduardoweiland.info",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/duduweiland/cakephp-bootstrap/issues",
+        "wiki": "https://github.com/duduweiland/cakephp-bootstrap/wiki",
+        "source": "https://github.com/duduweiland/cakephp-bootstrap"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+        "slywalker/boost_cake": "1.0.*",
+        "codaxis/cakephp-bootstrap3-helpers": "1.0.*"
+    },
+    "extra": {
+        "installer-name": "Bootstrap"
+    }
+}
+
