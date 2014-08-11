@@ -13,7 +13,7 @@
 <?php endif; ?>
 
 <ul class="pagination">
-    <?php echo $this->Paginator->prev('&larr; ' . __('Previous')); ?>
+    <?php echo $this->Paginator->prev('< ' . __('Previous')); ?>
     <?php echo $this->Paginator->numbers(); ?>
-    <?php echo $this->Paginator->next(__('Next') . ' &rarr;'); ?>
+    <?php echo $this->Paginator->next(__('Next') . ' >'); ?>
 </ul>
