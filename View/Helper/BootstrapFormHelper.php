@@ -10,7 +10,7 @@ class BootstrapFormHelper extends Bs3FormHelper {
      * @param string|array $options as a string will use $options as the value of button,
      * @return string a closing FORM tag optional submit button.
      */
-	public function end($options = null) {
+	public function end($options = null, $secureAttributes = array()) {
         if ($options !== null) {
             if (!is_array($options)) {
                 $options = array('label' => $options);
@@ -20,7 +20,7 @@ class BootstrapFormHelper extends Bs3FormHelper {
             }
         }
 
-        return parent::end($options);
+        return parent::end($options, $secureAttributes);
     }
 
 }
